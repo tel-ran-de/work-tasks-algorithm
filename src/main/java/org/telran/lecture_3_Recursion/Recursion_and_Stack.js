@@ -3,6 +3,7 @@ function functionIteration(n) {
     let res = 0;
     for (let i = 0; i <= n; i++) {
         res = res + i;
+        console.log(`res = ${res}; n = ${n}`);
     }
     return res;
 }
@@ -48,7 +49,13 @@ funIteration(2, 5);
 /** Функция, которая проверяет букву: согласная или нет */
 function isConsonant(letter) {
     letter = letter.toUpperCase();
-    return letter.charCodeAt() >= 65 && letter.charCodeAt() <= 90 && !(letter === 'A' || letter === 'E' || letter === 'I' || letter === 'O' || letter === 'U');
+    return letter.charCodeAt() >= 65
+        && letter.charCodeAt() <= 90
+        && !(letter === 'A'
+            || letter === 'E'
+            || letter === 'I'
+            || letter === 'O'
+            || letter === 'U');
 }
 
 isConsonant('Е');
@@ -68,7 +75,6 @@ countConsonantIteration('Tel-Ran');
 /** Самостоятельная */
 function countConsonantRecursion(str, n) {
     let res = 0;
-
     if (n === 1) {
         res = isConsonant(str[0]) ? 1 : 0;
         console.log(`Now res = ${res}`);
