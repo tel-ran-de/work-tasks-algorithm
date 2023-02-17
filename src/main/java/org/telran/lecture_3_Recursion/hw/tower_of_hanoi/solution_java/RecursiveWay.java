@@ -1,4 +1,4 @@
-package org.telran.lecture_3_Recursion.hw.tower_of_hanoi;
+package org.telran.lecture_3_Recursion.hw.tower_of_hanoi.solution_java;
 
 public class RecursiveWay {
     public static void main(String[] args) {
