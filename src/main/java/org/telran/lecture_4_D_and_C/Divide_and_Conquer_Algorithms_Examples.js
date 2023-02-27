@@ -5,6 +5,23 @@ function mainInit() {
     console.log(getMinElement(arr, 0));
 }
 
+function fibonacciRecursion(number) {
+    if (number < 2) {
+        return 1;
+    }
+    return fibonacciRecursion(number - 1) + fibonacciRecursion(number - 2);
+}
+function fibonacciUpgrade(number, arr) {
+    if (number < 2) {
+        return 1;
+    }
+    if (arr[number] !== -1) {
+        return arr[number];
+    }
+    arr[number] = fibonacciUpgrade(number - 1, arr) + fibonacciUpgrade(number - 2, arr);
+    return arr[number];
+}
+
 function getMaxElement(arr, index) {
     let max;
     let length = arr.length;
