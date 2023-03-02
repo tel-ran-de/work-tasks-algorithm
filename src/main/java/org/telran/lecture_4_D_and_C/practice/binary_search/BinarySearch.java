@@ -1,4 +1,4 @@
-package org.telran.lecture_4_D_and_C.binary_search;
+package org.telran.lecture_4_D_and_C.practice.binary_search;
 
 import java.util.Arrays;
 

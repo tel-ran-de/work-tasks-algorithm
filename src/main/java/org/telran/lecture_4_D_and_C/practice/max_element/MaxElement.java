@@ -1,4 +1,4 @@
-package org.telran.lecture_4_D_and_C.max_element;
+package org.telran.lecture_4_D_and_C.practice.max_element;
 
 public class MaxElement {
     public static void main(String[] args) {

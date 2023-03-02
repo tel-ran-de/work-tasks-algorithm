@@ -1,4 +1,4 @@
-package org.telran.lecture_4_D_and_C.fibonacci_numbers;
+package org.telran.lecture_4_D_and_C.practice.fibonacci_numbers;
 
 public class FibonacciNumbers {
     public static void main(String[] args) {
