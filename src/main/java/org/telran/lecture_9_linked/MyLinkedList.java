@@ -2,7 +2,7 @@ package org.telran.lecture_9_linked;
 
 public class MyLinkedList {
     Node head; // = null null.getData();
-    int idx; // = 0;
+    int idx;   // = 0;
 
     public void pushToHead(int data) {
         Node newNode = new Node(data, null);
@@ -114,7 +114,6 @@ public class MyLinkedList {
             }
             node = node.getNext();
         }
-
         return -1;
     }
 
