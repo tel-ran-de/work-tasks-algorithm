@@ -2,6 +2,7 @@ package org.telran.lecture_11_Greedy_Practice.practice.lock;
 
 public class LockRotation {
     public static void main(String[] args) {
+
 //        Ввод: Ввод = 2345, Код разблокировки = 5432
 //        Выход: требуется оборотов = 8
 
