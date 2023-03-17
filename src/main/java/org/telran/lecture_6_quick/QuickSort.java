@@ -13,19 +13,19 @@ public class QuickSort {
         // Worst O(n^2)
 
         int[] array = {39, 22, 2, 55, 6, 20};
-        quickSort(array, 0, array.length - 1);
+        quickSortRecursive(array, 0, array.length - 1);
         System.out.println(Arrays.toString(array));
 
     }
 
-    private static void quickSort(int[] array, int start, int end) {
+    public static void quickSortRecursive(int[] array, int start, int end) {
         if (start >= end) { // условие выходы из рекурсии
-            System.out.println("start "+ start + "end " + end);
+            System.out.println("start "+ start + " end " + end);
             return;
         }
         int indexPivot = partition(array, start, end);
-        quickSort(array, start, indexPivot - 1);
-        quickSort(array, indexPivot + 1, end);
+        quickSortRecursive(array, start, indexPivot - 1);
+        quickSortRecursive(array, indexPivot + 1, end);
     }
 
     private static int partition(int[] array, int partitionStart, int partitionEnd) {

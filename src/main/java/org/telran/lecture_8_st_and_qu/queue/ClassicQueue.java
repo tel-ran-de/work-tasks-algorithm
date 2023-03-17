@@ -19,7 +19,7 @@ public class ClassicQueue {
     private int[] arr;      // array for save elements a queue
     private int head;       // head is point to first element of queue
     private int tail;       // tail is point to end element of queue
-    private int capacity;   // max capacity of queue
+    private int capacity;   // max capacity of queueS
     private int count;      // current size of queue
 
     public ClassicQueue(int size) {
