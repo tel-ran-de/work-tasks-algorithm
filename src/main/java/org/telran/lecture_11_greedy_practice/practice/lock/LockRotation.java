@@ -1,4 +1,4 @@
-package org.telran.lecture_11_Greedy_Practice.practice.lock;
+package org.telran.lecture_11_greedy_practice.practice.lock;
 
 public class LockRotation {
     public static void main(String[] args) {

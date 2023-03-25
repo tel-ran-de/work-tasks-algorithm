@@ -1,4 +1,4 @@
-package org.telran.lecture_11_Greedy_Practice.practice.knapsack;
+package org.telran.lecture_11_greedy_practice.practice.knapsack;
 
 public class Item {
     private int cost;

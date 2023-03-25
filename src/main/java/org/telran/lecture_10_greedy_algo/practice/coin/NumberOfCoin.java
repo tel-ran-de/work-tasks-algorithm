@@ -1,4 +1,4 @@
-package org.telran.lecture_10_Greedy_Algo.practice.coin;
+package org.telran.lecture_10_greedy_algo.practice.coin;
 
 import java.util.ArrayList;
 import java.util.List;

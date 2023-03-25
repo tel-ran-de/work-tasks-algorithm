@@ -1,4 +1,4 @@
-package org.telran.lecture_10_Greedy_Algo.practice.activity;
+package org.telran.lecture_10_greedy_algo.practice.activity;
 
 public class Activity {
     String name;

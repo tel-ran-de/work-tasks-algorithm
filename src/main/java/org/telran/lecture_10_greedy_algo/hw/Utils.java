@@ -1,4 +1,4 @@
-package org.telran.lecture_10_Greedy_Algo.hw;
+package org.telran.lecture_10_greedy_algo.hw;
 
 public class Utils {
     public static int determineCost(int activityStart, int activityEnd) {
