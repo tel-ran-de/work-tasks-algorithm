@@ -7,7 +7,6 @@ public class AvlPractice {
         Node root = constructBST(tree, keys);
 
         Util.print(tree.getRoot());
-
     }
 
     public static Node constructBST(AvlTree tree, int[] keys) {
